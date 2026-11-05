@@ -1,0 +1,34 @@
+# 비밀 값
+.env
+.env.*
+
+# 에디터 임시/undo 파일
+*.un~
+*.swp
+*~
+
+# 빌드 산출물 (exe 는 GitHub Releases 로 배포)
+output/
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 테스트용 사진
+*.ARW
+*.arw
+*.NEF
+*.nef
+*.DNG
+*.dng
+
+# epc 작업 기록
+.epc/
+
+# 로컬 Claude Code 설정
+.claude/settings.local.json
