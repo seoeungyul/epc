@@ -31,6 +31,7 @@ DATE_TAGS = [
 IMAGE_SUFFIXES = {
     ".jpg", ".jpeg", ".png", ".webp",   # 일반 이미지
     ".arw", ".nef", ".dng",             # RAW (TIFF 기반)
+    ".cr2", ".srw",                     # 캐논 / 삼성 RAW (역시 TIFF 기반)
 }
 
 # IMG_20230415_101530.jpg / 2023-04-15 10.15.30.png 같은 파일명 패턴
